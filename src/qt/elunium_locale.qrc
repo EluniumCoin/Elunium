@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/elunium_bg.qm</file>
+        <file alias="ca">locale/elunium_ca.qm</file>
+        <file alias="cs">locale/elunium_cs.qm</file>
+        <file alias="da">locale/elunium_da.qm</file>
+        <file alias="de">locale/elunium_de.qm</file>
+        <file alias="en">locale/elunium_en.qm</file>
+        <file alias="en_US">locale/elunium_en_US.qm</file>
+        <file alias="es">locale/elunium_es.qm</file>
+        <file alias="fi">locale/elunium_fi.qm</file>
+        <file alias="fr_FR">locale/elunium_fr_FR.qm</file>
+        <file alias="it">locale/elunium_it.qm</file>
+        <file alias="ja">locale/elunium_ja.qm</file>
+        <file alias="ko_KR">locale/elunium_ko_KR.qm</file>
+        <file alias="nl">locale/elunium_nl.qm</file>
+        <file alias="pl">locale/elunium_pl.qm</file>
+        <file alias="pt">locale/elunium_pt.qm</file>
+        <file alias="pt_BR">locale/elunium_pt_BR.qm</file>
+        <file alias="ro_RO">locale/elunium_ro_RO.qm</file>
+        <file alias="ru">locale/elunium_ru.qm</file>
+        <file alias="sk">locale/elunium_sk.qm</file>
+        <file alias="sv">locale/elunium_sv.qm</file>
+        <file alias="tr">locale/elunium_tr.qm</file>
+        <file alias="uk">locale/elunium_uk.qm</file>
+        <file alias="zh_CN">locale/elunium_zh_CN.qm</file>
+        <file alias="zh_TW">locale/elunium_zh_TW.qm</file>
+    </qresource>
+</RCC>

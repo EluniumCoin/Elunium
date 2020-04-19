@@ -1,0 +1,26 @@
+# /etc/conf.d/eluniumd: config file for /etc/init.d/eluniumd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/elunium/elunium.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/eluniumd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/eluniumd.pid"
+
+# Where to write eluniumd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/eluniumd"
+
+# User and group to own eluniumd process
+#BITCOIND_USER="elunium"
+#BITCOIND_GROUP="elunium"
+
+# Path to eluniumd executable
+#BITCOIND_BIN="/usr/bin/eluniumd"
+
+# Nice value to run eluniumd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

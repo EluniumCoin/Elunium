@@ -1,0 +1,26 @@
+[Unit]
+Description=Elunium's distributed currency daemon
+After=network.target
+
+[Service]
+User=elunium
+Group=elunium
+
+Type=forking
+PIDFile=/var/lib/eluniumd/eluniumd.pid
+
+ExecStart=/usr/bin/eluniumd -daemon -pid=/var/lib/eluniumd/eluniumd.pid \
+          -conf=/etc/elunium/elunium.conf -datadir=/var/lib/eluniumd
+
+ExecStop=-/usr/bin/elunium-cli -conf=/etc/elunium/elunium.conf \
+         -datadir=/var/lib/eluniumd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Elunium
+Comment=Elunium P2P Cryptocurrency
+Exec=elunium-qt %u
+Terminal=false
+Type=Application
+Icon=elunium128
+MimeType=x-scheme-handler/elunium;
+Categories=Office;Finance;
+Name[en_US]=elunium-qt.desktop
